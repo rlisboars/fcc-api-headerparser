@@ -6,4 +6,4 @@ API project required for the Back End Development Certification of [freeCodeCamp
 * I can get the IP address, language and operating system for my browser.
 
 **Example Usage:**
-* ?
+* https://rlisboars-api-reqheader.herokuapp.com/

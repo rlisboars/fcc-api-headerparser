@@ -1,0 +1,25 @@
+{
+  "name": "fcc-api-headerparser",
+  "version": "1.0.0",
+  "description": "API project required for the Back End Development Certification of [freeCodeCamp](https://www.freecodecamp.com/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlisboars/fcc-api-headerparser.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlisboars/fcc-api-headerparser/issues"
+  },
+  "homepage": "https://github.com/rlisboars/fcc-api-headerparser#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "l": "^0.5.1"
+  }
+}
