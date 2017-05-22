@@ -16,7 +16,7 @@ app.get('/api/whoami/', (req, res) => {
         "language": null,
         "software": null,
     };
-    result.ipaddress = req.ip;
+    result.ipaddress = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
     result.language = req.headers['accept-language'].split(',')[0];
     result.software = req.headers['user-agent'].split(')')[0].split('(')[1];
     res.setHeader('Content-Type', 'application/json');
